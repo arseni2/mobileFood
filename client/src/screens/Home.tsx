@@ -1,11 +1,10 @@
 import {Text, View} from "react-native"
+import ReceptItem from "../components/ReceptItem";
 
 const HomeScreen = () => {
     return (
         <View>
-            <Text className="bg-red w-full text-amber-800">
-                Home screen
-            </Text>
+            <ReceptItem />
         </View>
     );
 };
